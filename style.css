@@ -25,7 +25,7 @@ code {
   box-shadow: 0 7px 20px 5px #00000088;
   border-radius: 0.7rem;
   backdrop-filter: blur(7px);
-  -webkit-backdrop-filter: blur(7px);
+  -webkit-backdrop-filter: blur(6px);
   overflow: hidden;
   transition: 0.5s all;
 }
@@ -57,7 +57,7 @@ code {
 
 .profileCard .card-frame .description {
   margin: 0.5rem 0;
-  color: #a89ec9;
+  color: #d2cedd;
 }
 
 .profileCard .card-frame .cardInfo {
