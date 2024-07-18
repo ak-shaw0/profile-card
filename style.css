@@ -69,14 +69,14 @@ code {
   align-items: center;
 }
 
-.profileCard .card-frame .cardInfo .price {
+.profileCard .card-frame .cardInfo .status {
   display: flex;
   align-items: center;
   color: #ee83e5;
   font-weight: 700;
 }
 
-.profileCard .card-frame .cardInfo .price ins {
+.profileCard .card-frame .cardInfo .status ins {
   margin-left: -0.3rem;
   margin-right: 0.5rem;
 }
