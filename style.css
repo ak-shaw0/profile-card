@@ -1,11 +1,14 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
-    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
-    sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: #161418;
+  background: rgb(154, 220, 255);
+  background: linear-gradient(
+    315deg,
+    rgba(154, 220, 255, 1) 0%,
+    rgba(186, 8, 224, 0.9612219887955182) 100%
+  );
+  background-attachment: fixed;
   color: #eee;
   user-select: none;
 }
@@ -19,8 +22,8 @@ code {
   user-select: none;
   max-width: 300px;
   margin: 5rem auto;
-  border: 1px solid #ffffff22;
-  background-color: #282c34;
+  border: 1.5px solid #ffffff22;
+  background-color: #252a33;
   background: linear-gradient(0deg, #282c34 0%, rgba(17, 0, 32, 0.5) 100%);
   box-shadow: 0 7px 20px 5px #00000088;
   border-radius: 0.7rem;
@@ -162,6 +165,11 @@ code {
 }
 
 .container h1 {
-  font-size: 12rem;
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 800;
+  font-style: normal;
+  font-variation-settings: "slnt" 0;
+  font-size: 10rem;
   filter: opacity(0.25);
 }
